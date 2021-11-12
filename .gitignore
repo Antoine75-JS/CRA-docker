@@ -1,0 +1,11 @@
+#GLOBAL
+**/node_modules/
+**/package-lock.json
+**/.env
+**/*.rest
+
+# API
+
+# BACK OFFICE
+
+# CLIENT
