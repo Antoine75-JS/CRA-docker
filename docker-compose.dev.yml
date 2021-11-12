@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  nginx:
+    ports: 
+      - "3000:80"
+
+  react:
+    container_name: react-dev
+    build:
+      dockerfile: Dockerfile
+    environment:
+      - CHOKIDAR_USEPOLLING=true
