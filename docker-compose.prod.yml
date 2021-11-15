@@ -10,3 +10,5 @@ services:
   react:
     build:
       dockerfile: Dockerfile.prod
+    # If image exists on docker-hob, allows docker-compose build from image
+    image: aintone/create-react-app-template
